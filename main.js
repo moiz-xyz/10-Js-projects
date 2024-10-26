@@ -94,8 +94,9 @@ let reverse = remoe_space.split("").reverse().join("");
         }else{
                 alert("The word is not palindrome ")
             };
-            // Assignmnet no 10 
-            // Second name of pak cities genertor
+
+// Assignmnet no 10 
+  // Second name of pak cities genertor
 let city =prompt("Enter a city to get its second name").toLowerCase();
 for( let m = 0 ; m <city.length;m++){
     if (city.slice(m,m+7) ==="karachi"){
