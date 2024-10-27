@@ -1,7 +1,7 @@
 
 //  Assignmnet no 1
 // Tittle formater
-let input_titile = prompt("Enter a sentence");
+let input_titile = prompt("Enter a sentence for the conersion of title case");
 let uppercase = input_titile.charAt(0).toUpperCase() + input_titile.slice(1);
 alert(uppercase)
 
@@ -24,7 +24,7 @@ if(!found){
 
 // Assignmnet no 3
 // Etracting user name from email
-let user_input =prompt("Enter a email");
+let user_input =prompt("Enter your email to find user nmae");
 let empty ="";
 let foundname = false ;
 for (let j = 0; j <user_input.length; j++){
@@ -39,11 +39,13 @@ if (!foundname){
 }
 
 // Assignment no 4
-// rounding no in  array
-let noarray =  [ 32.45 , 97.6 , 12.4,32.90];
-let rounding = Math.round(noarray);
-alert(rounding);
-//  yah poucnha ha sir sa
+// // rounding no in  array
+// let noarray =  [ 32.45 , 97.6 , 12.4 ,32.90];
+// let array_str = noarray.split(" ");
+// alert(array_str);
+// let rounding = Math.round(array_str);
+
+// alert(rounding);
 
 
 // Assignmnet no 5
